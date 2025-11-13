@@ -172,3 +172,24 @@ footer {
     margin-top: 60px;
     font-size: 14px;
 }
+
+#scrollTopBtn {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: #0078ff;
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+
+
+#scrollTopBtn:hover {
+    background-color: #005fcc;
+    transform: scale(1,1);
+}
